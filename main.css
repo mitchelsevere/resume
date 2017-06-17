@@ -1,0 +1,131 @@
+/*@font-face {
+	font-family: Raleway;
+	src: url(fonts/Raleway-Regular.ttf);
+	src: url(fonts/Raleway-SemiBold.ttf);
+	src: url(fonts/Raleway-Light.ttf);
+}*/
+
+body {
+	margin: 0;
+	font-family: Raleway;
+	width: 100%;
+	font-weight: 300;
+}
+
+p {
+	color: #999;
+	font-weight: 300;
+
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-weight: 300;
+	letter-spacing: 3px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	color: #000;
+}
+
+span {
+	font-weight: 600;
+}
+
+#main {
+	height: 1500px;
+	width: 1000px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 50px auto;
+}
+
+#mainHead {
+	text-align: center;
+	background-color: rgba(169, 169, 169, 0.1);
+	padding: 50px 0;
+	margin-bottom: 80px;
+}
+
+#left {
+	width: 35%;
+	text-align: right;
+	margin-left: 13%;
+	margin-top: 5%;
+	display: inline-block;
+	float: left;
+}
+
+#line {
+	border-left: 1px solid #999;
+	height: 810px;
+	margin-left: 500px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+#right {
+	width: 35%;
+	text-align: left;
+	margin-right: 13%;
+	display: inline-block;
+	float: right;
+
+}
+
+.contact {
+	font-size: 11px;
+	line-height: 6pt;
+	font-weight: 600;
+	color: black;
+}
+
+.heading {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #009BFF;
+	display: inline-block;
+}
+
+.section {
+	font-size: 11px;
+	margin: 15px 0 5px;
+	line-height: 14pt;
+}
+
+.skills {
+	font-size: 10px;
+	line-height: 6pt;
+}
+
+.head {
+    line-height: 3pt;
+	margin-top: 30px;
+	font-size: 11px;
+}
+
+.arrow {
+	color: #009BFF;
+}
+
+.paragraph {
+	font-size: 11px;
+}
+
+.date {
+	font-style: italic;
+	font-weight: 400;
+}
+
